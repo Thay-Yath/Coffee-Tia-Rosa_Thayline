@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f5f0;
+  color: #333;
+}
+
+header {
+  background: #6f4e37;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.bem-vindo {
+  text-align: center;
+}
+
+.cardapio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.item {
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background: #6f4e37;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+  margin-top: 20px;
+}
